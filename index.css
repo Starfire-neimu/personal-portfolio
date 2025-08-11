@@ -196,3 +196,29 @@ button{
     transition: 0.3s;
    background-color: var(--text-down-color);
 }
+@media screen and (max-width: 768px) {
+    .sidebar img{
+        width: 200px;
+        height: 200px;
+    }
+    .intro h1{
+        font-size: 30px;
+    }
+    .intro span{
+        font-size: 20px;
+    }
+    body{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+}
+#links{
+    color: rgb(255, 250, 250);
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+}

@@ -99,3 +99,25 @@ section p{
     padding: 0;
     margin: 0;
     }
+
+    @media screen and (max-width: 768px) {
+        .main-about {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            padding: 1rem;
+            align-items: center;
+            justify-content: center;
+        }
+        .main-about{
+            grid-template-columns: 1fr;
+        }
+        section {
+            padding: 1rem;
+        }
+        .about-container h2 {
+            font-size: 2rem;
+        }
+
+        
+    }

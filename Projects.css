@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-pro{
+    
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  
+}
+.pro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+   
+}
+p{
+    color: rgb(171, 173, 173);
+}
+.pro-container h1{
+    font-size: 2.9rem;
+   font-family: cursive;
+    font-weight: bold;
+    color: rgb(161, 252, 161);
+    margin-bottom: 1rem;
+}
+.pro-container p{
+    color: rgb(165, 159, 159);
+    
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: center; }
+
+.pro{
+     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    gap: 6rem;
+    width: 100%;
+    margin-left: 30px;
+    }
+    .pro1{
+         flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;   
+    
+    padding: 1rem;
+    background-color: rgb(27, 26, 26);
+    line-height: 2;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 20px;
+    overflow: hidden;
+    
+    }
+    .pro2{
+         flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;   
+    
+    
+    padding: 1rem;
+    background-color: rgb(27, 26, 26);
+    line-height: 2;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 20px;
+
+    }
+    .pro3{
+       border: 1px solid rgb(206, 204, 204);
+    border-radius: 20px;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;   
+    
+   
+    padding: 1rem;
+    background-color: rgb(27, 26, 26);
+    line-height: 2;
+    }
+    .pro4{
+         flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;   
+    
+    
+    padding: 1rem;
+    background-color: rgb(27, 26, 26);
+    line-height: 2;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 20px;
+    }
+    .pro5{
+         flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;   
+   
+    padding: 1rem;
+    background-color: rgb(27, 26, 26);
+    line-height: 2;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 20px;
+    }
+    .pro6{
+         flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;   
+    
+    padding: 1rem;
+    background-color: rgb(27, 26, 26);
+    line-height: 2;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 20px;
+    }
+    .pro img{
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        border-radius: 10px;
+        display: block;
+         }
+        .badge{
+          
+           
+           color: white;
+            gap: 10rem;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        
+       .pro a img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+           gap: 3rem;
+        }
+        .pro a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            border: 2px solid rgb(206, 204, 204);
+            border-radius: 10px;
+            width: 150px;
+            padding: 10px;
+            background-color: rgb(63, 62, 62);
+            margin-top: 20px;
+        }
+        .pro a:hover{
+            background-color: rgb(28, 27, 27);
+            color: rgb(185, 183, 183);
+        }
+        
